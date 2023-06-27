@@ -9,6 +9,10 @@ if !exists('g:markdrawer_goto')
     let g:markdrawer_goto = 'o'
 endif
 
+if !exists('g:markdrawer_click')
+    let g:markdrawer_click = 'o'
+endif
+
 if !exists('g:markdrawerDelete')
     let g:markdrawerDelete = 'D'
 endif

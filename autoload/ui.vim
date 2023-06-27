@@ -44,6 +44,7 @@ function! ui#OpenMarkdownDrawer() abort
   execute 'nnoremap <buffer> <silent> '. g:markdrawer_increase . ' :call Increase()<cr>'
   execute 'nnoremap <buffer> <silent> '. g:markdrawer_decrease . ' :call Decrease()<cr>'
   execute 'nnoremap <buffer> <silent> '. g:markdrawer_goto . ' :call GoTo()<cr>'
+  execute 'nnoremap <buffer> <silent> '. g:markdrawer_click . ' :call GoTo()<cr>'
 
 endfunction
 
