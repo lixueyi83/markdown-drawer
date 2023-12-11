@@ -37,6 +37,6 @@ if !exists('g:markdrawer_to_delete_color')
     let g:markdrawer_to_delete_color = 'Red'
 endif
 
-command! MarkDrawer :call ui#OpenMarkdownDrawer()
+command! MarkDrawerOpen :call ui#OpenMarkdownDrawer()
 command! MarkDrawerClose :call ui#CloseMarkdownDrawer()
 command! -nargs=1 MarkDrawerLevelSet :call ui#MarkDrawerLevelSet(<q-args>)
