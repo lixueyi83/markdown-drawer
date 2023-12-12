@@ -18,7 +18,7 @@ if !exists('g:markdrawerDelete')
 endif
 
 if !exists('g:markdrawer_width')
-    let g:markdrawer_width = '25'
+    let g:markdrawer_width = '30'
 endif
 
 if !exists('g:markdrawer_paste_below')
